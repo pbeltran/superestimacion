@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Pablo Beltrán-Pellicer   github.com/pbeltran">
+  <title>EL SUPERPODER DE LA ESTIMACION</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js/css/theme/my_black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="./reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">EL SUPERPODER DE LA ESTIMACION <br></h1>
+  <p class="subtitle">Un taller para educación primaria <br></p>
+  <p class="author">Pablo Beltrán-Pellicer <br> <a href="https://github.com/pbeltran">github.com/pbeltran</a> <br> <img src="assets/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="120px"></p>
+</section>
+
+<section><section id="pero-qué-es-esto-de-estimar" class="title-slide slide level1" data-background-image="assets/images/fondo1.jpg" data-background-opacity="0.3"><h1>PERO QUÉ ES ESTO DE ESTIMAR</h1></section><section id="section" class="slide level2" data-background-image="assets/images/kids.jpg" data-background-opacity="0.18">
+<h2></h2>
+<ol class="example" type="1">
+<li>Laura se llevó sus cromos al colegio para jugar varias partidas. En la primera perdió 9 cromos y en la segunda ganó 7 cromos. ¿Cuántos cromos le quedaron después de jugar?</li>
+</ol>
+</section></section>
+<section><section id="créditos" class="title-slide slide level1 credits"><h1>Créditos</h1></section><section id="section-1" class="slide level2">
+<h2></h2>
+<p>En la elaboración de este material didáctico han participado:</p>
+<ul>
+<li>Eva Cid</li>
+<li>Pablo Beltrán-Pellicer</li>
+</ul>
+<p>Se trata de la propuesta didáctica diseñada por Cid (2015), y analizada con detalle en su trabajo de tesis doctoral.</p>
+<p>Cid, E. (2015) <a href="http://www.atd-tad.org/documentos/obstaculos-epistemologicos-en-la-ensenanza-de-los-numeros-negativos-tesis-doctoral/"><em>Obstáculos epistemológicos en la enseñanza de los números negativos</em></a>. Tesis doctoral. Universidad de Zaragoza.</p>
+<p><img src="assets/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="90px"></p>
+</section><section id="section-2" class="slide level2">
+<h2></h2>
+<p>Presentaciones y materiales realizados con <a href="https://revealjs.com/#/">Reveal.js</a>, <a href="https://pandoc.org/">Pandoc</a>, <a href="https://www.latex-project.org/">LaTeX</a>, <a href="https://www.mathjax.org/">MathJax</a> y <a href="https://www.markdownguide.org/">Markdown</a></p>
+<p><a href="https://www.freepik.es/fotos-vectores-gratis/personas">Foto de personas creado por pressfoto - www.freepik.es</a> <a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Foto de fondo creado por onlyyouqj - www.freepik.es</a> <a href="https://www.freepik.es/fotos-vectores-gratis/personas">Foto de personas creado por pressfoto - www.freepik.es</a> <a href="https://www.freepik.es/fotos-vectores-gratis/personas">Foto de personas creado por freepik - www.freepik.es</a> <a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Foto de fondo creado por rawpixel.com - www.freepik.es</a></p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="./reveal.js/lib/js/head.min.js"></script>
+  <script src="./reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: './reveal.js/plugin/math/math.js', async: true },
+          { src: './reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
