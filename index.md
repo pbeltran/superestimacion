@@ -1,5 +1,5 @@
 ---
-title:  EL SUPERPODER DE LA ESTIMACION <br> 
+title:  EL SUPERPODER DE LA ESTIMACIÓN <br> 
 subtitle: Un taller para educación primaria <br>
 author: Pablo Beltrán-Pellicer <br> <a href="https://github.com/pbeltran">github.com/pbeltran</a>  <br> <img src="assets/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="120px">
 description: Materiales distribuidos bajo licencia CC-BY-SA-4.0 (https://creativecommons.org/licenses/by-sa/4.0/) (https://creativecommons.org/licenses/by-sa/4.0/legalcode.es)
@@ -9,6 +9,8 @@ titlepage-color: "06386e"
 titlepage-text-color: "FFFFFF"
 titlepage-rule-color: "FFFFFF"
 titlepage-rule-height: 1
+rollingLinks: true
+
 ---
 
 # PERO QUÉ ES ESTO DE ESTIMAR {data-background-image="assets/images/fondo1.jpg" data-background-opacity="0.3"}
@@ -24,7 +26,36 @@ titlepage-rule-height: 1
 ## Un día nevado para ser exactos
 
 
-[Enlace al vídeo en YouTube](https://www.youtube.com/watch?v=oyDHfN4t3cg)
+[Enlace al vídeo completo en YouTube](https://www.youtube.com/watch?v=oyDHfN4t3cg)
+
+:::::::::::::: {.columns}
+
+::: {.column width="45%"}
+
+![](assets/images/escenas.png){width=90%}  
+
+:::
+
+::: {.column width="45%"}
+
+_Enlaces a cada escena_
+
+[Caramelos 1](https://www.youtube.com/watch?v=oyDHfN4t3cg#t=3m00s) 
+
+[Telesilla](https://www.youtube.com/watch?v=oyDHfN4t3cg#t=5m34s)   
+
+[Barriles](https://www.youtube.com/watch?v=oyDHfN4t3cg#t=10m40s)   
+
+[Focas](https://www.youtube.com/watch?v=oyDHfN4t3cg#t=16m00s)      
+
+[Basket](https://www.youtube.com/watch?v=oyDHfN4t3cg#t=18m40s)     
+
+[Caramelos 2](https://www.youtube.com/watch?v=oyDHfN4t3cg#t=20m30s)
+
+:::
+
+:::::::::::::
+
 
 
 # Créditos {.credits}
